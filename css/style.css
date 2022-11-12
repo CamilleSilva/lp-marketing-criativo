@@ -71,6 +71,11 @@ img{
      width: 500px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 form [type="submit"]{
     height: 50px;
     width: 50%;
@@ -91,4 +96,8 @@ input{
     border: none;
     font-size: 15px; 
     
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
 }
